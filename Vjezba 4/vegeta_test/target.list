@@ -1,0 +1,4 @@
+POST http://localhost:8080/publish
+Content-Type: application/json
+Authorization: Bearer 18f84b52-f06d-4e7b-8795-c3245fd03726
+@./nesto.json

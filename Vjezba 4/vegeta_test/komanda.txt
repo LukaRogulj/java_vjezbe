@@ -1,0 +1,3 @@
+vegeta attack -duration=20s -rate=100 -targets=target.list -output=attack-5.bin
+
+vegeta plot -title=AAttack%20Results attack-5.bin > attack-5.html

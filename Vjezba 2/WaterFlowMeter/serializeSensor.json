@@ -1,0 +1,33 @@
+{
+  "brokerURL" : "tcp://localhost:1883",
+  "topic" : "iot_data",
+  "sensors" : [ {
+    "name" : "Water temperature",
+    "factor" : 10,
+    "bottomRange" : -32660,
+    "upperRange" : 32660,
+    "unit" : "Celsius",
+    "sensorValue" : 2863.6
+  }, {
+    "name" : "Water pressure",
+    "factor" : 1000,
+    "bottomRange" : 0,
+    "upperRange" : 65336,
+    "unit" : "Bar",
+    "sensorValue" : 55.636
+  }, {
+    "name" : "Daly consumption",
+    "factor" : 0,
+    "bottomRange" : 0,
+    "upperRange" : 65336,
+    "unit" : "Liters",
+    "sensorValue" : 6334.0
+  }, {
+    "name" : "Yearly consumption",
+    "factor" : 10,
+    "bottomRange" : 0,
+    "upperRange" : 65336,
+    "unit" : "Cubic meters",
+    "sensorValue" : 2612.8
+  } ]
+}
